@@ -1,0 +1,127 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[main=english,vietnamese]{babel}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{#2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\Large \foreignlanguage{vietnamese}{Trần Tôn Minh Kỳ}}} & Email : \href{mailto:ttmky2422@apcs.fitus.edu.vn}{ttmky2422@apcs.fitus.edu.vn}\\
+  & Mobile : 0946128824 \\
+\end{tabular*}
+
+%----------PROFILE------------------
+\section{Profile}
+Second-year Computer Science student at the Ho Chi Minh City University of Science pursuing the Advanced Program in Computer Science. Programming skills include HTML, CSS, JavaScript and Python developed through side projects and C/C++ developed through degree, alongside the ability to logically analyze and solve problems efficiently. Work experience as an English tutor developed the ability to communicate with a range of people and teamwork alongside peers.
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Thoai Ngoc Hau High School for the Gifted}{An Giang, Vietnam}
+      {GPA: 3.48 (8.7/10.0)}{Sep. 2021 -- May. 2024}
+    \resumeSubheading
+      {Ho Chi Minh City University of Science}{Ho Chi Minh, Vietnam}
+      {Bachelor of Computer Science}{Aug. 2024 -- Present}
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------------
+\section{Technical Skills}
+	\resumeItemListStart
+		\resumeItem{}{Proficiency in HTML, CSS, JavaScript, Python}
+		\resumeItem{}{Understanding and experience with frontend and backend web development technologies (HTML, CSS, JavaScript, NodeJS, express, NoSQL)}
+		\resumeItem{}{Experience of software development in C/C++ through degree}
+		\resumeItem{}{Understanding of data structures and algorithms; able to identify the appropriate benefits and downsides of each data structures and algorithms to solve specific problems}
+	\resumeItemListEnd
+
+%------------ADDITIONAL SKILLS------------------
+\section{Additional Skills}
+	\resumeItemListStart
+		\resumeItem{}{Fluency in Vietnamese and English (IELTS 8.0)}
+		\resumeItem{}{Ability to critically think and analyze problems well}
+		\resumeItem{}{Experience in working in teams and source control technologies (Git)}
+	\resumeItemListEnd
+
+%------------WORK EXPERIENCE---------------
+\section{Work Experience}
+	\resumeSubHeadingListStart
+		\resumeSubItem{IELTS Tutor (Apr. 2025 -- Present)}{: Part-time work tutoring at home one-on-one through online meeting application. Developed communication skills and the ability to effectively teach a wide range of people}
+	\resumeSubHeadingListEnd
+
+%------------HOBBIES AND INTERESTS-----------
+\section{Hobbies and Interests}
+	\resumeItemListStart
+		\resumeItem{}{Regularly attend extracurricular activities and events in college, most notably English contests}
+		\resumeItem{}{Develop bots on the instant messaging platform Discord}
+		\resumeItem{}{Self-learn LaTeX and Mathematics, enjoy helping others in Mathematics online}
+	\resumeItemListEnd
+
+%--------------REFERENCES-----------------
+\section{References}
+	Available on request
+
+%-------------------------------------------
+\end{document}
